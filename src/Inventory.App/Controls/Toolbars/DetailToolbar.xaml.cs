@@ -71,7 +71,7 @@ namespace Inventory.Controls
                 case DetailToolbarMode.Default:
                     ShowCategory(DefaultCommands.Split(','));
                     break;
-                case DetailToolbarMode.BackEditdDelete:
+                case DetailToolbarMode.BackEditDelete:
                     ShowCategory("back", "edit", "delete");
                     break;
                 case DetailToolbarMode.CancelSave:

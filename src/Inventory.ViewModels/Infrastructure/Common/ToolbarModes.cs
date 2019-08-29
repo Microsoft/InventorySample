@@ -26,7 +26,7 @@ namespace Inventory
     public enum DetailToolbarMode
     {
         Default,
-        BackEditdDelete,
+        BackEditDelete,
         CancelSave
     }
 }

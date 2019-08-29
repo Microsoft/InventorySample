@@ -38,7 +38,7 @@ namespace Inventory.Controls
     public enum DetailToolbarMode
     {
         Default,
-        BackEditdDelete,
+        BackEditDelete,
         CancelSave
     }
 

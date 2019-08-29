@@ -167,7 +167,7 @@ namespace Inventory.Controls
                 {
                     return DetailToolbarMode.CancelSave;
                 }
-                return CanGoBack ? DetailToolbarMode.BackEditdDelete : DetailToolbarMode.Default;
+                return CanGoBack ? DetailToolbarMode.BackEditDelete : DetailToolbarMode.Default;
             }
         }
         static DependencyExpression ToolbarModeExpression = DependencyExpressions.Register(nameof(ToolbarMode), nameof(IsEditMode), nameof(CanGoBack));
