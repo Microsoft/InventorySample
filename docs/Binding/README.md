@@ -127,7 +127,7 @@ Because `{x:Bind}` uses generated code to achieve its benefits, it requires type
 Starting in Windows 10, `{x:Bind}` allow us to bind functions directly in the XAML files. This enables:
 
 - A simpler way to achieve value conversion
-- A way to resolve Bindings that depend on mnore than one parameter.
+- A way to resolve Bindings that depend on more than one parameter.
 
 We can bind functions located in the code behind of the page or control, and even static functions if we use the XMLNamespace:ClassName.MethodName syntax. Let's see examples of how to use the functions in our Bindings:
 
