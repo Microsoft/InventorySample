@@ -4,7 +4,7 @@ Every app or web, with complex patterns involved, normally requires an initial s
 
 ## The Startup class
 
-As you may know, the App class (App.xaml file in the Inventory.App project), is the fisrt class to be executed when we launch the application. In the overriden methods `OnLaunched` and `OnActivated` of this class, we execute the intial setup and initialize the first page to load:
+As you may know, the App class (App.xaml file in the Inventory.App project), is the first class to be executed when we launch the application. In the overriden methods `OnLaunched` and `OnActivated` of this class, we execute the intial setup and initialize the first page to load:
 
 ```csharp
     protected override async void OnLaunched(LaunchActivatedEventArgs e)
